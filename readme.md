@@ -84,7 +84,7 @@ from | to | weight | width
 5 | 10 | 1 | 1.2
 4 | 2 | 2 | 1.4
 
-Nodes and edges can be visualized using any one of the above libraries. Here's a sample using visNetwork. 
+Nodes and edges can be visualized using any one of the above libraries. Here's a sample using visNetwork. (This is a code snippet, refer to full code sample in the R file in the repo.)
 
 ```r
 
@@ -97,7 +97,7 @@ visNetwork(nodes, edges)
 
 ## Spinglass algorithm to detect agent communities
 
-Once network connections are determined, community detection can be performed to identify possible agent clusters.  
+Once network connections are determined, community detection can be performed to identify possible agent clusters.  (This is a code snippet, refer to full code sample in the R file in the repo.)
 
 ```r
 groups <- spinglass.community(routes_igraph)
