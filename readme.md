@@ -42,11 +42,62 @@ Network analysis was performed using various R libraries:
 
 Sample executions of the above libraries are provided in this repository adapted from [Jesse Adler's work](https://www.jessesadler.com/post/network-analysis-with-r/).
 
+## Creating Network Visualizations on R
+
+Building networks require 2 datasets: nodes (entities to connect) and edges (connections between the entities). The connections can represent any concept. In this sample the connections are travel (edges) between locations (nodes). This represents the analysis performed to detect common disinformation agents. 
+
+Sample nodes: 
+
+id | label     
+--- | ---
+1 | Antwerp   
+2 | Haarlem   
+3 | Dordrecht 
+4 | Venice    
+5 | Lisse     
+6 | Het Vlie  
+7 | Hamburg   
+8 | Emden     
+9 | Amsterdam 
+10 | Delft     
+11 | The Hague 
+12 | Middelburg
+13 | Bremen
+
+Sample edges:
+
+from | to | weight | width
+--- | --- | --- | ---
+9 | 13 | 1 | 1.2
+1 | 10 | 68 | 14.6
+1 | 2 | 5 | 2  
+1 | 12 | 1 | 1.2
+1 | 11 | 2 | 1.4
+3 | 2 | 1 | 1.2
+8 | 13 | 1 | 1.2
+2 | 13 | 2 | 1.4
+2 | 10 | 26 | 6.2
+2 | 12 | 1 | 1.2
+2 | 11 | 1 | 1.2
+7 | 13 | 1 | 1.2
+6 | 13 | 1 | 1.2
+5 | 10 | 1 | 1.2
+4 | 2 | 2 | 1.4
+
+Nodes and edges can be visualized using any one of the above libraries. Here's a sample using visNetwork. 
+
+```r
+
+library(visNetwork)
+visNetwork(nodes, edges)
+
+```
+
+![alt text](https://github.com/docligot/conspiracy-detection-r/blob/master/network_sample.png "Network Sample")
+
 ## Spinglass algorithm to detect agent communities
 
 Once network connections are determined, community detection can be performed to identify possible agent clusters.  
-
-![alt text](https://github.com/docligot/conspiracy-detection-r/blob/master/network_sample.png "Network Sample")
 
 ```r
 groups <- spinglass.community(routes_igraph)
