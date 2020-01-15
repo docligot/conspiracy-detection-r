@@ -21,6 +21,8 @@ Troglodyte is an online and searchable database that automatically matches sourc
 * Fake news agents act like digital marketers and also use similar tools that webmasters use
 * By detecting common vectors such as IP, usernames, adsense, analytics, text, and images, fake news sites can be clustered together to detect a conspiracy of agents. 
 
+![alt text](https://github.com/docligot/conspiracy-detection-r/blob/master/connections.png "Connections")
+
 ## Detection Example
 
 Here's a cluster of 80 sites that were joined together using the methodology to detect conspiracy. 
