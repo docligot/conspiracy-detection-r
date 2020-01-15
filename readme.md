@@ -48,6 +48,13 @@ Once network connections are determined, community detection can be performed to
 
 ![alt text](https://github.com/docligot/conspiracy-detection-r/blob/master/network_sample.png "Network Sample")
 
+```r
+groups <- spinglass.community(routes_igraph)
+nodes_data <- nodes
+nodes_data$community <- groups$membership
+nodes_data
+```
+
 Result of Spinglass groupings: 
 
  id | label | community 
