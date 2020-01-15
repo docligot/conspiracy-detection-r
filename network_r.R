@@ -164,3 +164,11 @@ forceNetwork(Links = edges_d3, Nodes = nodes_d3, Source = "from", Target = "to",
 sankeyNetwork(Links = edges_d3, Nodes = nodes_d3, Source = "from", Target = "to", 
               NodeID = "label", Value = "weight", fontSize = 16, unit = "Letter(s)")
 
+# Modularity / Community Detection / Spinglass Algorithm
+
+groups <- spinglass.community(routes_igraph)
+groups$membership
+nodes
+nodes_data <- nodes
+nodes_data$community <- groups$membership
+nodes_data

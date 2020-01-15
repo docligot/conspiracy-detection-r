@@ -38,7 +38,7 @@ Network analysis was performed using various R libraries:
 * library(tidygraph)
 * library(ggraph)
 
-Sample executions of the above libraries are provided in this repository adapted from [Jesse Adler's work](https://www.jessesadler.com/post/network-analysis-with-r/)
+Sample executions of the above libraries are provided in this repository adapted from [Jesse Adler's work](https://www.jessesadler.com/post/network-analysis-with-r/).
 
 ## Contact Us
 
