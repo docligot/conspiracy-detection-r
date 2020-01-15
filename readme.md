@@ -24,7 +24,7 @@ Troglodyte is an online and searchable database that automatically matches sourc
 ## Detection Example
 
 Here's a cluster of 80 sites that were joined together using the methodology to detect conspiracy. 
-
+![alt text](https://github.com/docligot/conspiracy-detection-r/blob/master/conspiracy_detection.png "Conspiracy detection")
 
 ## R Code Example
 
@@ -38,7 +38,7 @@ Network analysis was performed using various R libraries:
 * library(tidygraph)
 * library(ggraph)
 
-Sample executions of the above libraries are provided in this repository. 
+Sample executions of the above libraries are provided in this repository adapted from [Jesse Adler's work](https://www.jessesadler.com/post/network-analysis-with-r/)
 
 ## Contact Us
 
