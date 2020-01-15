@@ -51,6 +51,7 @@ Once network connections are determined, community detection can be performed to
 Result of Spinglass groupings: 
 
  id | label | community 
+ --- | --- | ---
  <int> | <chr> | <dbl> 
  1 | Antwerp | 3 
  2 | Haarlem | 2 
