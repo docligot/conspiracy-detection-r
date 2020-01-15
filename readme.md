@@ -42,6 +42,30 @@ Network analysis was performed using various R libraries:
 
 Sample executions of the above libraries are provided in this repository adapted from [Jesse Adler's work](https://www.jessesadler.com/post/network-analysis-with-r/).
 
+## Spinglass algorithm to detect agent communities
+
+Once network connections are determined, community detection can be performed to identify possible agent clusters.  
+
+![alt text](https://github.com/docligot/conspiracy-detection-r/blob/master/network_sample.png "Network Sample")
+
+Result of Spinglass groupings: 
+
+| id | label | community |
+| <int> | <chr> | <dbl> |
+| 1 | Antwerp | 3 |
+| 2 | Haarlem | 2 |
+| 3 | Dordrecht | 2 |
+| 4 | Venice | 2 |
+| 5 | Lisse | 3 |
+| 6 | Het Vlie | 1 |
+| 7 | Hamburg | 1 |
+| 8 | Emden | 1 |
+| 9 | Amsterdam | 1 |
+| 10 | Delft | 3 |
+| 11 | The Hague | 2 |
+| 12 | Middelburg | 2 |
+| 13 | Bremen | 1 |
+
 ## Contact Us
 
 The Troglodyte team consists of the following: 
