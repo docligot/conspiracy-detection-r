@@ -126,7 +126,9 @@ Result of Spinglass groupings:
  
 ## Contact Us
 
-The Troglodyte team consists of the following: 
+Troglodyte was the [2019 Grand Prize Winner](https://www.adobomagazine.com/events/events-philippine-trio-troglodyte-wins-the-inaugural-break-the-fake-grand-hakathon-to-solve-fake-news-all-over-the-world/) of the Break The Fake Hackathon sponsored by YSEALI. The original team consisted of: 
+
+![alt text](https://github.com/docligot/conspiracy-detection-r/blob/master/Hackaton-Insert1.jpg "Grand Prize")
 
 * [Dominic Ligot](https://www.linkedin.com/in/docligot/), Data Analysis and Platform Development
 * [Carlos Nazareno](https://www.linkedin.com/in/object404/), Disinformation Research
